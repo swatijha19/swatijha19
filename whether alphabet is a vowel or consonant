@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char c;
+    int isLowercasevowel, isUppercasevowel;
+    
+    cout<<"enter a alphabet:";
+    cin>>c;
+    
+    isLowercasevowel =(c=='a'||c=='e'||c=='i'||c=='o'||c=='u');
+    
+isUppercasevowel =(c=='A'||c=='E'||c=='I'||c=='O'||c=='U');
+
+if(isLowercasevowel||isUppercasevowel){
+    cout<< c <<" is a vowel." <<endl;
+}
+else{
+    cout<< c <<" is a consonant."<<endl;
+}
+    return 0;
+}
